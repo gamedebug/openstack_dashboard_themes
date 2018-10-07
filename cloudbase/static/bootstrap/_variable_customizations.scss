@@ -1,0 +1,63 @@
+//== Cloudbase Theme Main Colors
+
+$brand-dark:            #0B141F;
+$brand-primary:         #007AFF;
+$gray-dark:             #212121;
+$gray-light:            #C1C1C1;
+$gray-lighter:          #EEEEEE;
+
+//== Typography
+//
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+//
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+
+//== Iconography
+//** Load fonts from this directory.
+$icon-font-path:          "../icons/fonts/";
+//** File name for all font files.
+$icon-font-name:          "material";
+//** Element ID within SVG icon file.
+$icon-font-svg-id:        "material";
+
+
+$padding-small-vertical:    5px !default;
+$padding-small-horizontal:  10px !default;
+
+//== Navbar
+
+// Inverted navbar
+// Inverted navbar links
+$navbar-inverse-link-color:                 #fff;
+$navbar-inverse-link-hover-color:           $navbar-inverse-link-color;
+
+// Inverted navbar brand label
+$navbar-inverse-brand-hover-color:          $navbar-inverse-link-color;
+
+// Inverted navbar toggle
+$navbar-inverse-toggle-icon-bar-bg:         $navbar-inverse-link-color;
+
+// Inverted navbar background color
+$navbar-inverse-bg:                         $brand-dark;
+
+// Inverted navbar active links
+$navbar-inverse-link-active-bg:             $brand-primary;
+
+//== Navs
+
+//=== Shared nav styles
+$nav-link-padding:                          15px 22px 15px 24px;
+$nav-pills-border-radius:                   0px;
+$nav-link-hover-bg:                         $gray-light;
+
+
+//== Modals
+//
+//##
+
+$modal-md:                    732px;
+$modal-backdrop-opacity:      .35 !default;
